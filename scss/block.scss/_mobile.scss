@@ -1,0 +1,35 @@
+.mobile-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    // display: flex;
+    
+    display: none;
+    &--open {
+        display: flex;
+    }
+}
+.mobile-nav__list {
+    padding-top: 46px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.mobile-nav__link {
+	font-weight: 600;
+	font-size: 34px;
+	color: #828282;
+    padding-left: 30px;
+   
+}
+.mobile-nav__link.active {
+    color: #090909;
+}
+.mobile-nav__btn {   
+    position: fixed; 
+    top: 46px;
+    right: 30px;
+}

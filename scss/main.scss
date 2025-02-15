@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700);
+
+@import "./base.scss/reset";
+@import "./base.scss/base";
+@import "./base.scss/mixins";
+
+@import "./block.scss/header";
+@import "./block.scss/nav";
+@import "./block.scss/description";
+@import "./block.scss/card";
+@import "./block.scss/about";
+@import "./block.scss/portfolio";
+@import "./block.scss/footer";
+@import "./block.scss/mobile";
+
+

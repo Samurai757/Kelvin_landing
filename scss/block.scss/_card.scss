@@ -1,0 +1,47 @@
+.skills {
+	padding-block: 90px;
+
+	@include tablet {
+		padding-block: 60px;
+	}
+}
+.skills1 {
+	padding-bottom: 90px;
+
+	@include tablet {
+		padding-bottom: 60px;
+	}
+}
+.skills__row {
+	// display: flex;
+	// column-gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+	gap: 30px;
+
+	@include tablet {
+		row-gap: 60px;
+	}
+	@include mobile {
+		grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+	}
+}
+.card__img {
+	margin-bottom: 30px;
+}
+.card__title {
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.card__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 2;
+
+	@include tablet {
+		overflow-wrap: break-word;
+		
+	}
+}

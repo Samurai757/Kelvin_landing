@@ -1,0 +1,33 @@
+body {
+	font-family: "Poppins", sans-serif;
+    color: #000;	
+}
+.container {
+	max-width: 1230px;
+	padding: 0 30px;
+	margin: 0 auto;	
+}
+h2 {
+	font-size: 34px;
+	font-weight: 600;
+}
+.sticky-footer {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.none {
+	display: none;
+}
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+.no-scroll {
+	overflow-y: hidden;
+}

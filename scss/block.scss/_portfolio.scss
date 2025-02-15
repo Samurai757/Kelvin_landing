@@ -1,0 +1,46 @@
+.portfolio {
+	background-color: #f1f1f1;
+	padding-bottom: 90px;
+
+	@include mobile {
+		padding-bottom: 60px;
+	}
+}
+.portfolio__title {	
+	padding-block: 90px 70px;
+	text-align: center;
+
+	@include mobile {		
+		padding-block: 60px 50px;
+	}
+}
+.portflio-row {
+	display: flex;
+	flex-direction: column;
+	row-gap: 90px;
+
+	@include mobile {
+		row-gap: 55px;
+	}
+}
+.portfolio__card {	
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+	
+	@include mobile {
+		row-gap: 30px;		
+	}
+}
+.portfolio__link {
+	font-weight: 400;
+	font-size: 18px;
+	text-decoration: underline !important;
+	text-align: center;
+	color: #070707;
+	transition: all .3s ease-in;
+}
+.portfolio__link:hover {
+	color: #a63647;
+}

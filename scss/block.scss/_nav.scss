@@ -1,0 +1,35 @@
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 50px;
+	font-size: 14px;
+	font-weight: 500;	
+	@include tablet {
+		display: none;
+	}
+}
+.nav-link {	
+	padding: 7px;	
+	color: #000;
+	border-radius: 16px;
+	transition: all .3s ease-in;
+}
+.nav-link:hover {
+	background-color: #c2bcbc;
+	color: #fff;
+}
+.nav-link.active {
+	color: #606060;
+}
+.nav-link.active:hover {
+	color: #fff;
+}
+.nav-btn {
+	display: none;
+
+	@include tablet {
+		display: block;
+	}
+
+}
+

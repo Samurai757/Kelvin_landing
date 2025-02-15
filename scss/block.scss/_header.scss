@@ -1,0 +1,34 @@
+.header { 
+	background-color: #f1f1f1;
+    padding-top: 46px;	
+    width: 100%;
+    box-sizing: border-box;
+
+    @include tablet {
+        padding-top: 40px;
+    }
+}
+.header__nav { 
+    display: flex;
+	justify-content: space-between;
+	align-items: center;   
+}
+.header__logo {
+	font-size: 32px;
+	font-weight: 700;  
+    line-height: 1;  
+    color: #000;
+    position: relative;
+    padding: 0 12px 3px 0;
+}
+.header__logo::after {
+	content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+	border-radius: 50%;
+	background-color: #fda300;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
