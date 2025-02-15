@@ -11,6 +11,15 @@
   box-sizing: border-box;
 }
 
+:focus,
+:active {
+  /*outline: none;*/
+}
+
+a:focus,
+a:active {
+  /* outline: none;*/
+}
 
 /* Links */
 a, a:link, a:visited {
@@ -473,16 +482,19 @@ h2 {
   color: #a63647;
 }
 
+.footer {
+  padding-block: 90px;
+}
+@media (max-width: 720px) {
+  .footer {
+    padding-block: 60px;
+  }
+}
+
 .footer__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-block: 90px;
-}
-@media (max-width: 720px) {
-  .footer__content {
-    padding-block: 60px;
-  }
 }
 
 .footer__title {

@@ -1,12 +1,14 @@
-.footer__content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.footer {
 	padding-block: 90px;
 
 	@include mobile {
 		padding-block: 60px;
 	}
+}
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer__title {
 	margin-bottom: 40px;
